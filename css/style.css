@@ -1,4 +1,27 @@
-*{ 
-    color: blue;
-    background: gray;
+body {
+    color: whitesmoke;
+    background: rgb(177, 238, 188);
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 30px;
+    display: block;
+}
+header, h1 {
+    height: 75px;
+    font-size: 40px;
+}
+section, article, hgroup, h2, h3, h4 {
+    font-size: 30px;
+    width: 50%;
+    margin:0; 
+}
+p {
+    font-size: 20px;
+
+}
+
+
+img {
+    width: 300px;
+    margin: 8px;
 }
