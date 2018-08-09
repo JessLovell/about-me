@@ -36,6 +36,7 @@ for (var i = 0; i < Object.keys(questions).length; i++){
       }
     }
     break;
+    
   case 6: //for question #7
     j = 1;
     //this loop gives the user 6 attempts to guessmy favorite flavor
