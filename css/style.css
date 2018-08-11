@@ -3,7 +3,7 @@ body {
     background: rgb(177, 238, 188);
     font-family: Georgia, Times, serif;
     line-height: 1.4em;
-    margin: 30px;
+    margin: 30px auto;
     display: block;
 }
 header, h1 {
