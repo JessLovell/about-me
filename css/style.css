@@ -9,7 +9,7 @@ body {
     max-width: 700px;
     
   }
-  p{
+  p.about{
     background: #F3D250;
     padding: 10px 30px 30px 30px;
   }
@@ -18,8 +18,9 @@ body {
     padding: 20px; 
   }
   .testimonials{
-    background: #F78888;
+    background:  #5DA2D5;
     padding: 30px;
+    color: white;
   }
   header{
     font-size: 50px;
@@ -49,4 +50,17 @@ img {
     width: 300px;
     margin: 30px;
     border-radius: 50%;
+}
+em.speaker {
+    font-style: italic;
+    color: black;
+}
+.education {
+    background:#F78888;
+    padding: 30px;
+}
+h4.education {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold; 
 }

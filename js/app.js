@@ -5,7 +5,7 @@ function mainQuestions(){
   alert('Nice to have you here, ' + username + ' these are all Yes/No questions, so feel free to answer wtih y/n or yes/no. ');
 
   //An hash to hold questions and values
-  var questions = {'Am I a Seattle native? ': 'no', 'Have I been to Vermont?': 'no', 'Is Blue Bell my favorite Ice Cream brand?': 'yes', 'Do I have any siblings?': 'yes', 'Am I a dog lover?': 'yes', 'What is my favorite number between 0-3?': Math.floor(Math.random()*3), 'What is one of my favorite ice cream flavors?': ['cookies \'n cream', 'butter pecan', 'chocolate']};
+  var questions = {'Am I a Seattle native? ': 'no', 'Have I been to Paris?': 'yes', 'Have I ever worked at an ice cream factory?': 'yes', 'Do I have any siblings?': 'yes', 'Do I like dogs?': 'yes', 'What is my favorite number between 0-3?': Math.floor(Math.random()*3), 'What is one of my favorite ice cream flavors?': ['cookies \'n cream', 'butter pecan', 'chocolate']};
 
   var answerCorrect = 0;
 
