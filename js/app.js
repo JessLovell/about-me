@@ -26,14 +26,14 @@ function mainQuestions(){
           answerCorrect++;
         } else {
         //display prompts to guide the guesses
-          if(parseInt(userInput) > values){
-            userInput = prompt('You were too high! You have ' + (3-j) + ' more attempts.');
+          if(j === 3) {
+            alert('Nice try, my favorite number is ' + values);
             j++;
           } else if (isNaN(parseInt(userInput))){
             userInput = prompt('Enter a NUMBER! You have ' + (3-j) + ' more attempts.');
             j++;
-          } else if(j === 3) {
-            alert('Nice try, my favorite number is ' + values);
+          } else if(parseInt(userInput) > values){
+            userInput = prompt('You were too high! You have ' + (3-j) + ' more attempts.');
             j++;
           } else {
             userInput = prompt('You were too low! You have ' + (3-j) + ' more attempts.');
