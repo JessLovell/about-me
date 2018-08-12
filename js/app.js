@@ -45,7 +45,7 @@ function mainQuestions(){
 
     case 6: //for question #7
       j = 1;
-      //this loop gives the user 6 attempts to guessmy favorite flavor
+      //this loop gives the user 6 attempts to guess my favorite flavor
       while (j <= 6){
         var userCheck = values.indexOf(userInput); //check if the input is in the array
         console.log('User Index: '+ userCheck);
