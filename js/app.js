@@ -81,4 +81,4 @@ function mainQuestions(){
   alert('You guessed ' + answerCorrect + ' out of 7 questions, correctly');
 }
 
-mainQuestions();
+//mainQuestions();
