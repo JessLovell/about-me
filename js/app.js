@@ -82,3 +82,5 @@ function mainQuestions(){
 }
 
 //mainQuestions();
+
+$('.detail').hide();
