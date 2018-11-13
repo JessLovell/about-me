@@ -5,6 +5,8 @@
         <link rel="stylesheet" type="text/css" href="font/flaticon.css"> 
         <link href="css/reset.css" type="text/css" rel="stylesheet" />
         <link href="css/base.css" type="text/css" rel="stylesheet" />
+        <link href="css/layout.css" type="text/css" rel="stylesheet" />
+        <link href="css/modules.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body>
@@ -13,17 +15,14 @@
         </header>
 
         <main>
-            <div class="b container">
             <div class="title portfolio-resume">
                 <h2>Portfolio + Resume</h2>
             </div>
             <div class="detail portfolio-resume">
-                <div class="projects">
-                    <div>
-                        <img src="http://placehold.it/200" />
-                        <h3>Project</h3>
-                        <p>details for this project where I show my excellent skills. Brief description. </p>
-                    </div>
+                <div class="header" id="projects-header">
+                    <h2>projects</h2>
+                </div>
+                <div class="projects detail-container">
                     <div>
                         <img src="http://placehold.it/200" />
                         <h3>Project</h3>
@@ -55,7 +54,11 @@
                         <p>details for this project where I show my excellent skills. Brief description. </p>
                     </div>
                 </div>
-                <div class="education">
+
+                <div id="education-header">
+                    <h2>education</h2>
+                </div>
+                <div class="education detail-container">
                     <div> 
                         <h3>Code School | Certificate | 2019</h3>
                         <p>Breif description of the things learned</p>
@@ -66,11 +69,9 @@
                     </div>
                 </div>
             </div>
-            </div>
+        
             
-            <div class="container d">
             <div class="title life-skills">
-                <img src="http://placehold.it/200" />
                 <h2>Life + Skills</h2>
             </div>
             <div class="detail life-skills">
@@ -95,20 +96,29 @@
                     <img src="http://placehold.it/600x350" />
                 </div>
             </div>
-            </div>
 
-            <div class="container f">
             <div class="title talk-stalk">
                 <h2>Talk + Stalk</h2>
             </div>
-            <div class="detail talk-stalk">
-                <img src="http://placehold.it/70" />
-                <img src="http://placehold.it/70" />
-                <img src="http://placehold.it/70" />
-                <img src="http://placehold.it/70" />
-                <img src="http://placehold.it/70" />
-                <img src="http://placehold.it/70" />
-            </div>
+            <div class="detail talk-stalk detail-container">
+                <h2>talk</h2>
+                <h2>stalk</h2>
+                <div class="talk">
+                    <div>
+                        <img class="email" src="http://placehold.it/100" />
+                        <p class="email">jessicaamberlovell@gmail.com</p>
+                    </div>
+                    <div>
+                        <img class="phone" src="http://placehold.it/100" />
+                        <p class="phone">(979) 123 - 4567</p>
+                    </div>    
+                </div>
+                <div class="stalk">
+                    <img src="http://placehold.it/100" />
+                    <img src="http://placehold.it/100" />
+                    <img src="http://placehold.it/100" />
+                    <img src="http://placehold.it/100" />
+                </div>
             </div>
 
         </main>
