@@ -20,9 +20,11 @@ header h1 {
 .f { grid-area: f; }
 .g { grid-area: g; }
 .h { grid-area: h; }
-
+.title { grid-area: title; }
+.detail { grid-area: detail; }
 
 main {
+    width: 100%;
     display: grid;
     justify-content: center;
     grid-template-rows: auto;
@@ -31,6 +33,13 @@ main {
         "b d f"
         "h h h";
 
+}
+.container{
+    height: 80vh;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+        "title detail detail";
 }
 
 header {
@@ -53,7 +62,7 @@ header {
 }
 
 .detail {
-    height: 75vh; 
+    height: 80vh; 
     overflow: scroll;
 }
 

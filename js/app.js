@@ -84,3 +84,26 @@ function mainQuestions(){
 //mainQuestions();
 
 $('.detail').hide();
+$('main').on('click', function () {
+  console.log(event.target.className);
+  if ('title talk-stalk' === event.target.className){
+    $('.talk-stalk').show();
+    $('.life-skills').hide();
+    $('.portfolio-resume').hide();
+  } 
+  if ('title portfolio-resume' === event.target.className){
+    $('.talk-stalk').hide();
+    $('.life-skills').hide();
+    $('.portfolio-resume').show();
+  } 
+  if ('title life-skills' === event.target.className){
+    $('.talk-stalk').hide();
+    $('.life-skills').show();
+    $('.portfolio-resume').hide();
+  } 
+});
+
+$('header').on('click', function () {
+  $('.detail').hide();
+  $('.title').show();
+});
