@@ -1,0 +1,125 @@
+header {
+    height: 80px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 80vh;
+}
+
+.detail {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+header {
+    height: 10vh;
+    text-align: center;
+}
+
+/* MAIN & TITLE SECTION LAYOUTS */
+.title {
+    text-align: center;
+    position: relative;
+}
+
+.title h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title.portfolio-resume {
+    background-color: #F3D250;
+}
+
+.title.life-skills {
+    background-color: #90CCF4;
+}
+
+.title.talk-stalk {
+    background-color: #F78888;
+}
+
+/* DETAILS VIEWS  */
+.detail {
+    overflow: scroll;
+}
+
+
+/* PORTFOLIO-RESUME */
+.portfolio-resume .detail-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.portfolio-resume .detail-container div {
+    text-align: center;
+    padding: 30px;
+}
+
+#projects-header {
+    background-color: black;
+    color: #ECECEC;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 65%;
+}
+
+.projects.detail-container {
+    margin-top: 60px;
+}
+
+#education-header {
+    background-color: black;
+    color: #ECECEC;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* TALK-STALK */
+.talk-stalk.detail-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60px;
+}
+
+.talk-stalk.detail-container h2 {
+    text-align: center;
+    background: black;
+    color: #ECECEC;
+    padding: 20px;
+}
+
+.talk, .stalk {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+.talk-stalk.detail-container img {
+    padding: 5px;
+}
+
+.talk p {
+    padding: 10px;
+}
+
+
+
+
+/* FOOTER */
+footer {
+    height: 10vh;
+}
