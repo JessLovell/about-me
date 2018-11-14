@@ -10,7 +10,7 @@ header h1 {
 
 main {
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 33.3% 33.3% 33.4%;
     grid-template-rows: 80vh;
 }
 
@@ -87,6 +87,71 @@ header {
     width: 100%;
 }
 
+/* LIFE-SKILLS */
+.detail.life-skills h2{
+    background-color: black;
+    color: #ECECEC;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.about img {
+    border-radius: 50%;
+}
+
+.life-skills .detail-container {
+    text-align: center;
+    margin: 7%;
+}
+
+.a { grid-area: a;}
+.b { grid-area: b;}
+.c { grid-area: c;}
+.d { grid-area: d;}
+.e { grid-area: e;}
+.f { grid-area: f;}
+.g { grid-area: g;}
+.h { grid-area: h;}
+.i { grid-area: i;}
+.j { grid-area: j;}
+.k { grid-area: k;}
+.l { grid-area: l;}
+.m { grid-area: m;}
+.n { grid-area: n;}
+.o { grid-area: o;}
+.p { grid-area: p;}
+.q { grid-area: q;}
+
+.picto-story.detail-container {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "a b c d e"
+        "f f f f f"
+        "g h i j k"
+        "l l l l l"
+        "m n o p q"; 
+}
+
+.f {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    margin: auto;
+}
+.l {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: auto;
+}
+
+.b, .d, .h, .j, .n, .p {
+    margin: auto;
+}
+
+
+
 /* TALK-STALK */
 .talk-stalk.detail-container {
     display: grid;
@@ -116,10 +181,10 @@ header {
     padding: 10px;
 }
 
-
-
-
 /* FOOTER */
 footer {
-    height: 10vh;
+    height: 9vh;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 10px;
 }
