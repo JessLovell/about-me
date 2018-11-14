@@ -173,12 +173,17 @@ header {
     text-align: center;
 }
 
-.talk-stalk.detail-container img {
-    padding: 5px;
+.talk-stalk.detail-container .talk div, .stalk div {
+    padding: 10px;
 }
 
 .talk p {
     padding: 10px;
+}
+
+.stalk {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 /* FOOTER */

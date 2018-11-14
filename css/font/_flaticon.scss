@@ -1,9 +1,9 @@
-	/*
-  	Flaticon icon font: Flaticon
-  	Creation date: 13/11/2018 23:50
-  	*/
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 13/11/2018 23:50
+    */
 
-@font-face {
+    @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
@@ -21,15 +21,22 @@
   }
 }
 
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-  font-family: Flaticon;
-        font-size: 20px;
-font-style: normal;
-margin-left: 20px;
-}
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
 
-.flaticon-texas:before { content: "\f100"; }
+    .flaticon-texas:before { content: "\f100"; }
 .flaticon-school:before { content: "\f101"; }
 .flaticon-space-needle:before { content: "\f102"; }
 .flaticon-web:before { content: "\f103"; }
@@ -50,4 +57,28 @@ margin-left: 20px;
 .flaticon-text-document:before { content: "\f112"; }
 .flaticon-home:before { content: "\f113"; }
 .flaticon-monitor:before { content: "\f114"; }
-.flaticon-email:before { content: "\f115"; }
+.flaticon-email:before { content: "\f115"; 
+ font-size: 100px;}
+    
+    $font-Flaticon-texas: "\f100";
+    $font-Flaticon-school: "\f101";
+    $font-Flaticon-space-needle: "\f102";
+    $font-Flaticon-web: "\f103";
+    $font-Flaticon-you-are-here: "\f104";
+    $font-Flaticon-university: "\f105";
+    $font-Flaticon-tools: "\f106";
+    $font-Flaticon-smartphone-call: "\f107";
+    $font-Flaticon-instagram: "\f108";
+    $font-Flaticon-facebook: "\f109";
+    $font-Flaticon-github: "\f10a";
+    $font-Flaticon-linkedin: "\f10b";
+    $font-Flaticon-next: "\f10c";
+    $font-Flaticon-back: "\f10d";
+    $font-Flaticon-down-arrow: "\f10e";
+    $font-Flaticon-summer: "\f10f";
+    $font-Flaticon-texas-1: "\f110";
+    $font-Flaticon-head: "\f111";
+    $font-Flaticon-text-document: "\f112";
+    $font-Flaticon-home: "\f113";
+    $font-Flaticon-monitor: "\f114";
+    $font-Flaticon-email: "\f115";

@@ -1,0 +1,14 @@
+/* STALK LINKS */
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover, .talk i:hover {
+    color:#F3D250;
+}
