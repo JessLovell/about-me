@@ -12,3 +12,7 @@ a:visited {
 a:hover, .talk i:hover {
     color:#F3D250;
 }
+
+.title:hover {
+    opacity: 0.85;
+}
