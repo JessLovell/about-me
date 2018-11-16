@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 13/11/2018 23:50
+    Creation date: 15/11/2018 23:14
     */
 
     @font-face {
@@ -57,8 +57,8 @@
 .flaticon-text-document:before { content: "\f112"; }
 .flaticon-home:before { content: "\f113"; }
 .flaticon-monitor:before { content: "\f114"; }
-.flaticon-email:before { content: "\f115"; 
- font-size: 100px;}
+.flaticon-email:before { content: "\f115"; }
+.flaticon-fast-forward:before { content: "\f116"; }
     
     $font-Flaticon-texas: "\f100";
     $font-Flaticon-school: "\f101";
@@ -82,3 +82,4 @@
     $font-Flaticon-home: "\f113";
     $font-Flaticon-monitor: "\f114";
     $font-Flaticon-email: "\f115";
+    $font-Flaticon-fast-forward: "\f116";

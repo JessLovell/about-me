@@ -84,7 +84,7 @@ header {
     color: #ECECEC;
     text-align: center;
     padding: 20px;
-    width: 100%;
+    width: 95%;
 }
 
 /* LIFE-SKILLS */
@@ -93,11 +93,12 @@ header {
     color: #ECECEC;
     text-align: center;
     padding: 20px;
-    width: 100%;
+    width: 95%;
 }
 
 .about img {
     border-radius: 50%;
+    max-width: 300px;
 }
 
 .life-skills .detail-container {
@@ -130,7 +131,7 @@ header {
     grid-template-areas: 
         "a b c d e"
         "f f f f f"
-        "g h i j k"
+        "k h i j g"
         "l l l l l"
         "m n o p q"; 
 }

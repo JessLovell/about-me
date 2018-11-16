@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <!--
-2018-11-13: Created with FontForge (http://fontforge.org)
+2018-11-15: Created with FontForge (http://fontforge.org)
 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20160405 at Tue Nov 13 23:50:58 2018
+Created by FontForge 20160405 at Thu Nov 15 23:14:54 2018
  By Apache
 Copyright (c) 2018, Apache
 </metadata>
@@ -22,7 +22,7 @@ Copyright (c) 2018, Apache
     bbox="-0.000476576 -64.001 512 448"
     underline-thickness="25.6"
     underline-position="-51.2"
-    unicode-range="U+0020-F115"
+    unicode-range="U+0020-F116"
   />
     <missing-glyph />
     <glyph glyph-name="space" unicode=" " horiz-adv-x="200" 
@@ -183,6 +183,8 @@ c0 -59.2705 -5.82324 -119.652 -48.0498 -159.735c-6.66309 -6.32031 -13.8184 -11.9
     <glyph glyph-name="uniF10C" unicode="&#xf10c;" 
 d="M387.058 202.207c5.58008 -5.58008 5.58008 -14.8076 -0.107422 -20.3867l-241.528 -241.528c-2.78906 -2.89746 -6.54492 -4.29199 -10.1934 -4.29199c-3.64746 0 -7.40332 1.50195 -10.1934 4.29199c-5.68652 5.68652 -5.68652 14.8066 0 20.4941l231.228 231.228
 l-231.228 231.228c-5.68652 5.68652 -5.68652 14.8066 0 20.4941c5.6875 5.68652 14.8076 5.68652 20.4941 0z" />
+    <glyph glyph-name="uniF116" unicode="&#xf116;" 
+d="M229.065 427.557l22.5684 20.4434l247.89 -245.778v-20.4434l-247.89 -245.778l-22.5684 20.4434l235.558 235.557zM282.66 202.222v-20.4434l-247.76 -245.778l-22.4238 20.4434l235.817 235.557l-235.036 235.557l21.5127 20.4434z" />
     <glyph glyph-name="uniF10B" unicode="&#xf10b;" 
 d="M437 448c41.3555 0 75 -33.6445 75 -75v-362c0 -41.3555 -33.6445 -75 -75 -75h-362c-41.3555 0 -75 33.6445 -75 75v362c0 41.3555 33.6445 75 75 75h362zM482 11v362c0 24.8125 -20.1875 45 -45 45h-362c-24.8125 0 -45 -20.1875 -45 -45v-362
 c0 -24.8125 20.1875 -45 45 -45h362c24.8125 0 45 20.1875 45 45zM482 11zM91 26v212h90v-212h-90zM121 208v-152h30v152h-30zM121 208zM331.086 238c50.5312 -0.046875 89.9141 -46.1406 89.9141 -94.6875v-117.312h-90v107c0 8.26953 -6.73047 15 -15 15
