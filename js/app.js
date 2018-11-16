@@ -33,15 +33,15 @@ $('header').on('click', function () {
 });
 
 $('.talk').on('click', () => {
-  if(event.target.className === 'email'){
+  if(event.target.className === 'flaticon-email email'){
     $('p.email').toggle();
-  } else if (event.target.className === 'phone'){
+  } else if (event.target.className === 'flaticon-smartphone-call phone'){
     $('p.phone').toggle();
   }
 });
 
 $(document).ready(function() {
-  console.log( "ready!" );
+  console.log("ready!");
   $('p.phone').hide();
   $('p.email').hide();
   $('.detail').hide();

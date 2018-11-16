@@ -84,7 +84,7 @@ header {
     color: #ECECEC;
     text-align: center;
     padding: 20px;
-    width: 100%;
+    width: 95%;
 }
 
 /* LIFE-SKILLS */
@@ -93,11 +93,12 @@ header {
     color: #ECECEC;
     text-align: center;
     padding: 20px;
-    width: 100%;
+    width: 95%;
 }
 
 .about img {
     border-radius: 50%;
+    max-width: 300px;
 }
 
 .life-skills .detail-container {
@@ -130,7 +131,7 @@ header {
     grid-template-areas: 
         "a b c d e"
         "f f f f f"
-        "g h i j k"
+        "k h i j g"
         "l l l l l"
         "m n o p q"; 
 }
@@ -173,12 +174,17 @@ header {
     text-align: center;
 }
 
-.talk-stalk.detail-container img {
-    padding: 5px;
+.talk-stalk.detail-container .talk div, .stalk div {
+    padding: 10px;
 }
 
 .talk p {
     padding: 10px;
+}
+
+.stalk {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 /* FOOTER */
